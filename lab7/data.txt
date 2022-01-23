@@ -1,0 +1,11 @@
+Moscow Novosibirsk      3392    11500
+Zhukovskiy Moscow       35      35
+Gubkin Belgorod         97      230
+Orel Belgorod           300     700
+Moscow Belgorod         660     10000
+Kiev Belgorod           468     1302
+Moscow Orel             363     660
+
+New_York Washington     365     500
+Los_angeles New_York    4700    31000
+Los_angeles San_diego   260     2200

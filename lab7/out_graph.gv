@@ -1,0 +1,18 @@
+graph Citys { 
+	graph [ dpi = 150 ]; 
+	node [shape=ellipse]; Moscow; Novosibirsk; Zhukovskiy; Gubkin; Belgorod; Orel; Kiev; New_York; Washington; Los_angeles; San_diego;
+
+	Novosibirsk -- Moscow [label = "3392 11500 p."  ];
+	Zhukovskiy -- Moscow [label = "35 35 p." color = red];
+	Belgorod -- Moscow [label = "660 10000 p."  ];
+	Belgorod -- Gubkin [label = "97 230 p."  ];
+	Orel -- Moscow [label = "363 660 p." color = red];
+	Orel -- Belgorod [label = "300 700 p." color = red];
+	Kiev -- Belgorod [label = "468 1302 p." color = red];
+	Washington -- New_York [label = "365 500 p."  ];
+	Los_angeles -- New_York [label = "4700 31000 p."  ];
+	San_diego -- Los_angeles [label = "260 2200 p."  ];
+	label = "
+
+ Path  distance = 1166 coast = 2697 ";	fontsize=20;
+}
